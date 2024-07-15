@@ -67,7 +67,7 @@ console.log(mergedArray); // [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // problem5
 // Write an object person using the object literal syntax extensions.
 // The object should have properties name and age, and a method greet that returns a greeting message.
-
+// Answer 5
 const name = "John";
 const age = 30;
 
@@ -94,11 +94,9 @@ for(let fruit of fruits){
 
 // Use template literals to create a string that includes variables name and age.
 // use fast letter UpperCase because avoid naming conflict.
-
+// Answer7
 const Name = "Alice";
 const Age = 25;
-
-// Your code here
 const message = `My name is ${Name} and I am ${Age} years old.`;
 console.log(message); // "My name is Alice and I am 25 years old."
 
@@ -106,7 +104,7 @@ console.log(message); // "My name is Alice and I am 25 years old."
 // problem 8
 // You have an array of objects representing students and their grades.
 // Use a for...of loop to iterate over the array and print each student's name and grade.
-// Answer8
+// Answer 8
 const students = [
     { name: "Alice", grade: 90 },
     { name: "Bob", grade: 85 },
@@ -122,7 +120,7 @@ const students = [
  
 //   problem 9
 //  You have a nested array of numbers. Use a `for...of` loop to iterate over each inner array and print the sum of its elements.
-
+// Answer 9
 const nestedArrays = [
     [1, 2, 3],
     [4, 5, 6],
